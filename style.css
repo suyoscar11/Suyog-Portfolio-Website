@@ -119,7 +119,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-    color: rgb(248, 2, 6);
+    color: rgb(2, 248, 23);
     transition: all 0.3s ease;
 }
 
@@ -242,20 +242,20 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-    color: rgb(240, 8, 8);
+    color: rgb(174, 180, 5);
     font-weight: 500;
 }
 
 .home .home-content a {
     display: inline-block;
-    background: rgb(248, 2, 2);
+    background: rgb(2, 248, 23);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid rgb(248, 2, 2);
+    border: 2px solid rgb(2, 248, 23);
     transition: all 0.3s ease;
 }
 
