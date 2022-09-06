@@ -322,7 +322,7 @@ section .title::after {
     background: none;
 }
 
-/* services section styling */
+/* projects section styling */
 .services,
 .teams {
     color: #fff;
@@ -337,7 +337,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
     background: #111;
-    content: "what i provide";
+    content: "what I have done";
 }
 
 .services .serv-content .card {
