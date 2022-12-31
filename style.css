@@ -483,7 +483,7 @@ section .title::after {
 }
 
 .teams .carousel .card:hover {
-    background: rgb(2, 248, 23);
+    background: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg") no-repeat;
 }
 
 .teams .carousel .card .box {
@@ -509,7 +509,7 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid rgb(2, 248, 23);
+    border: 5px solid rgb(248, 250, 248);
     transition: all 0.3s ease;
 }
 
@@ -528,7 +528,7 @@ section .title::after {
     margin: 0 5px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid rgb(2, 248, 23) !important;
+    border: 2px solid rgb(246, 250, 246) !important;
     transition: all 0.3s ease;
 }
 

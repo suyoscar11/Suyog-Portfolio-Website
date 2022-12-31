@@ -53,18 +53,18 @@ $(document).ready(function () {
     margin: 20,
     loop: true,
     autoplay: true,
-    autoplayTimeOut: 1000,
+    autoplayTimeOut: 500,
     autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1,
         nav: false,
       },
-      600: {
+      200: {
         items: 2,
         nav: false,
       },
-      1000: {
+      500: {
         items: 3,
         nav: false,
       },
