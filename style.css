@@ -48,7 +48,9 @@ section {
 footer {
     font-family: 'Poppins', sans-serif;
 }
-
+.text-href{
+    color: white;
+}
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
@@ -56,6 +58,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    gap: 20px;
     justify-content: space-between;
 }
 
@@ -354,11 +357,25 @@ section .title::after {
 }
 
 .services .serv-content .card:hover {
-    background: rgb(2, 248, 23);
+    /* background: rgb(2, 248, 23); */
+    background: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg") no-repeat;
 }
 
 .services .serv-content .card .box {
     transition: all 0.3s ease;
+}
+.visible-proj{
+    position: relative;
+}
+.visible-proj .card:hover{
+    visibility: hidden;
+}
+.invisible-proj .card:hover{
+    visibility: visible;
+}
+.invisible-proj{
+    position: absolute;
+    visibility: hidden;
 }
 
 .services .serv-content .card:hover .box {
@@ -452,11 +469,14 @@ section .title::after {
 .teams .title::after {
     content: "who with me";
 }
-
+.proj-image{
+    height: 50%;
+    width: 100%;
+}
 .teams .carousel .card {
     background: #222;
     border-radius: 6px;
-    padding: 25px 35px;
+
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -530,7 +550,6 @@ section .title::after {
 .contact .contact-content .column {
     width: calc(50% - 30px);
 }
-
 .contact .contact-content .text {
     font-size: 20px;
     font-weight: 600;
